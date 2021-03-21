@@ -597,7 +597,7 @@ footer {
   height: 100vh;
   background: rgba(0, 0, 0, 0.2);
 
-  transition: translate(100px, 200px);
+  /* transition: translate(100px, 200px); */
 }
 
 .modal {
