@@ -36,6 +36,9 @@ img {
 .link {
   text-decoration: none;
   color: inherit;
+}
+
+.link-db {
   display: block;
 }
 
@@ -508,7 +511,7 @@ header {
 /* ========== END REGULAR CUSTOMERS ========= */
 
 /* ============= FOOTER ============= */
-footer {
+.footer {
   background-color: rgb(47, 48, 58);
   padding-top: 60px;
   padding-bottom: 60px;
