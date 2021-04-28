@@ -11,7 +11,6 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
             integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
             crossorigin="anonymous" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <link rel="stylesheet" href="./css/styles.css">
     </head>
 
@@ -20,7 +19,7 @@
             <div class="container">
                 <nav class="navigation">
                     <a class="logo link" href="./index.html"><span class="first-part">Web</span><span class="second-part logo-light-theme">Studio</span></a>
-                    <ul class="navigation-list list reset-list">
+                    <ul class="navigation-list list">
                         <li class="navigation-item">  
                             <a class="navigation-link link current" href="./index.html">Студия</a>
                         </li>
@@ -33,11 +32,11 @@
                     </ul>   
                 </nav>
             
-                <ul class="contact-header list reset-list">
+                <ul class="contact-header list ">
                     <li class="contact-header-list">
                         <a class="contact-header-link link" href="mailto:info@devstudio.com">
                             <svg class="contact-svg-logo" width="16" height="12">
-                                <use href="./images/sprite.svg#icon-envelope" ></use>
+                                <use href="./images/sprite.svg#icon-envelope"></use>
                             </svg>
                             info@devstudio.com
                         </a>
@@ -45,7 +44,7 @@
                     <li class="contact-header-list">
                         <a class="contact-header-link link" href="tel:+380961111111">
                             <svg class="contact-svg-logo" width="10" height="16">
-                                <use href="./images/sprite.svg#icon-smartphone" >
+                                <use href="./images/sprite.svg#icon-smartphone">
                                 </use>
                             </svg>
                             +38 096 111 11 11
@@ -58,7 +57,7 @@
         <main>
             <!-- hero -->
             <section class="hero">
-                <div class="container ">
+                <div class="container">
                     <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                     <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button> 
                 </div>
@@ -67,8 +66,7 @@
             <!-- features -->
             <section class="features">
                 <div class="container">
-                    <h2 class="title visually-hidden">Особенности</h2>
-                    <ul class="feature-list list reset-list">
+                    <h2 class="title visually-hidden">Особенности</h2><ul class="feature-list list ">
                         <li class="feature-list-item">
                             <div class="feature-list-logo-svg">
                                 <svg class="feature-list-svg" width="70" height="70">
@@ -76,7 +74,7 @@
                                 </svg>
                             </div>
                             <h3 class="feature-title">Внимание к деталям </h3>
-                            <p class="features-text"> 
+                            <p class="features-text">
                                 Идейные соображения, а также начало повседневной
                                 работы по формированию позиции.
                             </p>
@@ -125,7 +123,7 @@
             <section class="what-are-we-doing">
                 <div class="container">
                     <h2 class="title">Чем мы занимаемся</h2>
-                    <ul class="services-list list reset-list">
+                    <ul class="services-list list">
                         <li class="services-list-item">
                             <img class="services-list-img" src="./images/body/logo_0.jpg" alt="человек набирает текст" width="370" height="294">
                             <p class="label">Десктопные приложения</p>
@@ -145,20 +143,19 @@
             <!-- team -->
             <section class="team-sections">
                 <div class="container">
-                    <h2 class="title title-team">Наша команда</h2>
-                    <ul class="team-list list reset-list">
+                    <h2 class="title title-team">Наша команда</h2><ul class="team-list list">
                         <li class="team-list-item">
                             <img class="team-list-img" src="./images/team/img.jpg" alt="Игорь Демьяненко" width="270" height="260">
                             <div class="team-list-content-wrapper">
                                 <h3 class="team-list-title">Игорь Демьяненко</h3>
                                 <p class="team-text" lang="en">Product Designer</p>
-                                <ul class="team-list-svg  list reset-list">
+                                <ul class="team-list-svg  list">
                                     <li class="team-list-content-svg">
                                         <a href="#" class="team-list-link-svg link">
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-instagram"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
                                     <li class="team-list-content-svg">
@@ -166,7 +163,7 @@
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-twitter"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
                                     <li class="team-list-content-svg">
@@ -174,7 +171,7 @@
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-facebook"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
                                     <li class="team-list-content-svg">
@@ -182,25 +179,25 @@
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-linkedin"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
                                 </ul>
                             </div>
-                            
+                    
                         </li>
                         <li class="team-list-item">
                             <img class="team-list-img" src="./images/team/img-1.jpg" alt="Ольга Репина" width="270" height="260">
                             <div class="team-list-content-wrapper">
                                 <h3 class="team-list-title">Ольга Репина</h3>
                                 <p class="team-text" lang="en">Frontend Developer</p>
-                                <ul class="team-list-svg  list reset-list">
+                                <ul class="team-list-svg  list">
                                     <li class="team-list-content-svg">
                                         <a href="#" class="team-list-link-svg link">
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-instagram"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
                                     <li class="team-list-content-svg">
@@ -208,7 +205,7 @@
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-twitter"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
                                     <li class="team-list-content-svg">
@@ -216,7 +213,7 @@
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-facebook"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
                                     <li class="team-list-content-svg">
@@ -224,25 +221,25 @@
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-linkedin"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
-                                </ul>  
+                                </ul>
                             </div>
-                            
+                    
                         </li>
                         <li class="team-list-item">
                             <img class="team-list-img" src="./images/team/img-2.jpg" alt="Николай Тарасов" width="270" height="260">
                             <div class="team-list-content-wrapper">
                                 <h3 class="team-list-title">Николай Тарасов</h3>
                                 <p class="team-text" lang="en">Marketing</p>
-                                <ul class="team-list-svg  list reset-list">
+                                <ul class="team-list-svg  list">
                                     <li class="team-list-content-svg">
                                         <a href="#" class="team-list-link-svg link">
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-instagram"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
                                     <li class="team-list-content-svg">
@@ -250,7 +247,7 @@
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-twitter"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
                                     <li class="team-list-content-svg">
@@ -258,7 +255,7 @@
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-facebook"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
                                     <li class="team-list-content-svg">
@@ -266,25 +263,25 @@
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-linkedin"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
                                 </ul>
                             </div>
-                            
+                    
                         </li>
                         <li class="team-list-item">
                             <img class="team-list-img" src="./images/team/img-3.jpg" alt="Михаил Ермаков" width="270" height="260">
                             <div class="team-list-content-wrapper">
                                 <h3 class="team-list-title">Михаил Ермаков</h3>
                                 <p class="team-text" lang="en">UI Designer</p>
-                                <ul class="team-list-svg  list reset-list">
+                                <ul class="team-list-svg  list">
                                     <li class="team-list-content-svg">
                                         <a href="#" class="team-list-link-svg">
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-instagram"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
                                     <li class="team-list-content-svg">
@@ -292,7 +289,7 @@
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-twitter"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
                                     <li class="team-list-content-svg">
@@ -300,7 +297,7 @@
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-facebook"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
                                     <li class="team-list-content-svg">
@@ -308,29 +305,29 @@
                                             <svg class="team-list-icon">
                                                 <use href="./images/sprite.svg#icon-linkedin"></use>
                                             </svg>
-
+                    
                                         </a>
                                     </li>
-                                </ul> 
+                                </ul>
                             </div>
-                            
+                    
                         </li>
-                    </ul> 
+                    </ul>
                 </div>
                 
-            </section>  
-             <!-- regular customers -->
+            </section>             
+            <!-- regular customers -->
             <section class="customers">
                 <div class="container">
                     <h2 class="title">Постоянные клиенты</h2>
-                    <ul class="customers-list list reset-list">
+                    <ul class="customers-list list ">
                         <li class="customers-list-item link">
                             <a href="" class="container-link">
                                 <svg class="container-customers-logo" width="44" height="49">
                                     <use href="./images/sprite.svg#icon-clients-logo-1"></use>
                                 </svg>
                             </a>
-
+            
                         </li>
                         <li class="customers-list-item link">
                             <a href="" class="container-link">
@@ -338,7 +335,7 @@
                                     <use href="./images/sprite.svg#icon-clients-logo-2"></use>
                                 </svg>
                             </a>
-
+            
                         </li>
                         <li class="customers-list-item link">
                             <a href="" class="container-link">
@@ -346,7 +343,7 @@
                                     <use href="./images/sprite.svg#icon-clients-logo-3"></use>
                                 </svg>
                             </a>
-
+            
                         </li>
                         <li class="customers-list-item link">
                             <a href="" class="container-link">
@@ -354,7 +351,7 @@
                                     <use href="./images/sprite.svg#icon-clients-logo-4"></use>
                                 </svg>
                             </a>
-
+            
                         </li>
                         <li class="customers-list-item link">
                             <a href="" class="container-link">
@@ -362,7 +359,7 @@
                                     <use href="./images/sprite.svg#icon-clients-logo-5"></use>
                                 </svg>
                             </a>
-
+            
                         </li>
                         <li class="customers-list-item link">
                             <a href="" class="container-link">
@@ -375,15 +372,16 @@
                 </div>
             </section>
         </main>
-        <!-- contact information -->
-        <footer class="footer">
+        <!-- contact information --><footer class="footer">
             <div class="container">
                 <div class="footer-address-contact">
-                    <a class="logo link" href="./index.html"><span class="first-part">Web</span><span class="second-part logo-dark-theme">Studio</span></a>
+                    <a class="logo link" href="./index.html"><span class="first-part">Web</span><span
+                            class="second-part logo-dark-theme">Studio</span></a>
                     <address class="address">
-                        <ul class="contact-list list reset-list">            
+                        <ul class="contact-list list ">
                             <li class="contact-list-item">
-                                <a class="contact-list-link current-address link" href="https://goo.gl/maps/KrXVA7ucvxgBEwCo6" target="_blank" rel="noopener noreferrer">
+                                <a class="contact-address link" href="https://goo.gl/maps/KrXVA7ucvxgBEwCo6"
+                                    target="_blank" rel="noopener noreferrer">
                                     г. Киев, пр-т Леси Украинки, 26
                                 </a>
                             </li>
@@ -394,12 +392,12 @@
                                 <a class="contact-list-link link" href="tel:+380961111111">+38 096 111 11 11</a>
                             </li>
                         </ul>
-                </address>
-
+                    </address>
+        
                 </div>
                 <div class="footer-social-link">
                     <h2 class="logo">присоединяйтесь</h2>
-                    <ul class="contact-list-social-link list reset-list">
+                    <ul class="contact-list-social-link list ">
                         <li class="contact-social-item link">
                             <a href="" class="social-link-item">
                                 <svg class="social-link-svg" width="20" height="20">
@@ -429,22 +427,22 @@
                             </a>
                         </li>
                     </ul>
-
+        
                 </div>
-            </div>         
+            </div>
         </footer>
-<!-- modal 1 -->
+    <!-- modal 1 -->
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <button type="button" class="modal-close-btn" data-modal-close>
                     <svg class="modal-close-btn-svg" width="18" height="18">
                         <use href="./images/sprite.svg#icon-close-black"></use>
                     </svg>
-
+        
                 </button>
             </div>
         </div>
-
+        
         <script src="./js/modal.js"></script>
     </body>
 </html>
