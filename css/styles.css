@@ -684,7 +684,8 @@ header {
   background-color: rgb(245, 244, 250);
   color: rgb(33, 33, 33);
 
-  transition: background-color var(--animation), color var(--animation);
+  transition: background-color var(--animation), color var(--animation),
+    box-shadow var(--animation);
 }
 
 .filter-button:focus,
